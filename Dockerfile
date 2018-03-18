@@ -1,5 +1,5 @@
 FROM rocker/verse:latest
-MAINTAINER "Carl Boettiger" cboettig@ropensci.org
+MAINTAINER "Christopher Prener" chris.prener@slu.edu
 
 RUN apt-get update \
   && apt-get install -y --no-install-recommends \
@@ -36,6 +36,7 @@ RUN apt-get update \
     mapdata \
     maptools \
     mapview \
+    measurements \
     ncdf4 \
     proj4 \
     raster \
