@@ -2,7 +2,11 @@
 
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 
-This is the experimental Docker build for my Intro to GIS course at Saint Louis University. 
+This is the experimental Docker build for my Intro to GIS course at Saint Louis University. It is built on-top of the [`rocker/geospatial`]() Docker image:
+
+> This image extends the [`rocker-versioned` stack](https://github.com/rocker-org/rocker-versioned) with geospatial-related tools, particularly those that can be difficult or slow to add on-the-fly.  As such, this image includes RStudio, the tidyverse packages, and `verse` libraries (notably LaTeX and JAVA environments)...This image seeks to provide a more opinionated collection of packages, prioritizing those packages that can be slow or tricky to install due to compiled code and external dependencies, and with an emphasis on more general-purpose libaries and classes.  
+
+My plan is to transition the primary `R` computing environment from local installations to Docker containers for the Spring 2019 semester. 
 
 ## About SOC 4650 & 5650: Introduction to GIS
 ### Course Description
